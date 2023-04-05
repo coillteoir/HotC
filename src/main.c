@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 
 	time_t currTime = 0;
 
-	char command[50] = "sh /usr/bin/hot.sh ";
+	char command[50] = "sh hot.sh ";
 	strncat(command, argv[1], sizeof(command) - 1);
 	puts(command);
 	while(1)
